@@ -4,11 +4,6 @@ class Student
 {
     String Name;int StudentNo;
     Student(){
-//        Scanner scan=new Scanner(System.in);
-//        System.out.print("Name= ");
-//        Name= scan.nextLine();
-//        System.out.print("Student NO.= ");
-//        StudentNo=scan.nextInt();
         StudentNo=0;
         Name=null;
     }
@@ -25,9 +20,6 @@ class GraduateStudent extends Student
 {
     String credit;
     GraduateStudent(){
-//        Scanner grad=new Scanner(System.in);
-//        System.out.print("Credit Score= ");
-//        credit=grad.nextInt();
         super();
         credit=null;
     }
@@ -48,8 +40,6 @@ public class Chapter10Ass
 
         GraduateStudent[] gst=new GraduateStudent[10];
         for (int i=0;i< gst.length;i++){
-//            System.out.print("Student NO.= ");
-//            int StudentNo= scan.nextInt();
             System.out.print("Name= ");
             String Name= scan.nextLine();
             System.out.print("Credit Score= ");
